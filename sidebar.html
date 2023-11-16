@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Example</title>
+  <style>
+    .app-sidebar__user-avatar {
+      max-width: 40%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%; /* Make the image circular */
+    }
+  </style>
+</head>
+<body>
+<aside class="app-sidebar">
+    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="image.jpg.png" alt="User Image">
+      <div>
+        <p class="app-sidebar__user-name">Suvin Raj</p>
+        <p class="app-sidebar__user-designation">Frontend Developer</p>
+      </div> 
+    </div>
+    <ul class="app-menu">
+      <li><a class="app-menu__item active" href="dashboard.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-user"></i><span class="app-menu__label">Users</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="tablebasic2.php" target="_blank" rel="noopener"><i class="icon fa fa-eye"></i>Users</a></li>
+          <!-- <li><a class="treeview-item" href="tablebasic.php"><i class="icon fa fa-check"></i>Approved  Users</a></li> -->
+          <!-- <li><a class="treeview-item" href="tablebasic2.php" target="_blank" rel="noopener"><i class="icon fa fa-eye"></i>Approved Users</a></li> -->
+          <!-- <li><a class="treeview-item" href="ui-cards.html"><i class="icon fa fa-circle-o"></i> Cards</a></li>
+          <li><a class="treeview-item" href="widgets.html"><i class="icon fa fa-circle-o"></i> Widgets</a></li> -->
+        </ul>
+      </li>
+      <!-- <li><a class="app-menu__item" href="charts.html"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Charts</span></a></li> -->
+
+      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-user-secret"></i><span class="app-menu__label">Officers</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="tablebasicofficer.php"><i class="icon fa fa-check"></i>Add Officers</a></li>
+          <li><a class="treeview-item" href="tablebasicofficer2.php"><i class="icon fa fa-eye"></i>View Officers</a></li>
+          <!-- <li><a class="treeview-item" href="form-samples.html"><i class="icon fa fa-circle-o"></i> Form Samples</a></li>
+          <li><a class="treeview-item" href="form-notifications.html"><i class="icon fa fa-circle-o"></i> Form Notifications</a></li> -->
+        </ul>
+      </li>
+      <!-- <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Tables</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Basic Tables</a></li>
+          <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> Data Tables</a></li>
+        </ul>
+      </li> -->
+      <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Activity</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a class="treeview-item" href="blankpage.php"><i class="icon fa fa-bell"></i>Create alert messages</a></li>
+          <!-- <li><a class="treeview-item" href="page-login.html"><i class="icon fa fa-circle-o"></i> Login Page</a></li> -->
+          <!-- <li><a class="treeview-item" href="page-lockscreen.html"><i class="icon fa fa-circle-o"></i> Lockscreen Page</a></li> -->
+          <!-- <li><a class="treeview-item" href="pageuser.php"><i class="icon fa fa-user"></i> User Page</a></li> -->
+          <!-- <li><a class="treeview-item" href="page-invoice.html"><i class="icon fa fa-circle-o"></i> Invoice Page</a></li> -->
+          <li><a class="treeview-item" href="pagecalendar.php"><i class="icon fa fa-calendar"></i> Calendar Page</a></li>
+          <!-- <li><a class="treeview-item" href="pagemailbox.php"><i class="icon fa fa-envelope"></i> Mailbox</a></li> -->
+          <li><a class="treeview-item" href="pageerror.php"><i class="icon fa fa-exclamation-circle"></i> Error Page</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+</body>
+  </html>
